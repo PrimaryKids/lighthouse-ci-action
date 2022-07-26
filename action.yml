@@ -2,7 +2,7 @@
 name: 'Run Lighthouse CI on Shopify theme'
 branding:
   icon: shopping-bag
-  colour: green
+  color: green
 description: 'Run Lighthouse CI on Shopify themes directly from GitHub'
 inputs:
   access_token:
