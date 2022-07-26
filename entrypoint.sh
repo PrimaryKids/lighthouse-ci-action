@@ -203,6 +203,8 @@ ci:
         - "--disable-setuid-sandbox"
         - "--disable-dev-shm-usage"
         - "--disable-gpu"
+    autodiscoverUrlBlocklist:
+        - "*.bounceexchange.com"
   upload:
     target: temporary-public-storage
   assert:
