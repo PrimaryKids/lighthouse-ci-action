@@ -8,7 +8,7 @@
 
 ## Usage
 
-Add `shopify/lighthouse-ci-action` to the workflow of your Shopify theme.
+Add `PrimaryKids/lighthouse-ci-action` to the workflow of your Shopify theme.
 
 ```yml
 # .github/workflows/lighthouse-ci.yml
@@ -21,7 +21,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Lighthouse
-        uses: shopify/lighthouse-ci-action@v1
+        uses: PrimaryKids/lighthouse-ci-action@v1
         with:
           store: ${{ secrets.SHOP_STORE }}
           access_token: ${{ secrets.SHOP_ACCESS_TOKEN }}
